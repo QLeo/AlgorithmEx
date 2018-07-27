@@ -44,14 +44,16 @@ public class ReverseArray {
             x[i] = stdIn.nextInt();
         }
 
+        System.out.println();
         reverse(x);
 
-        System.out.println("요소를 역순으로 정렬을 마쳤습니다.");
         for (int i = 0; i < num ; i++) {
+            System.out.printf("결과: ");
             System.out.printf(String.format("%s ", x[i]));
         }
-
+        System.out.printf(" >>>> 요소를 역순으로 정렬을 마쳤습니다.");
         System.out.println();
+
         System.out.println("===================");
         System.out.println();
 
